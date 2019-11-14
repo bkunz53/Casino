@@ -1,4 +1,3 @@
-//Brian Kunz, Michael Zuckerman, Nick D'Uva
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -426,7 +425,7 @@ public class Casino
 						playRoulette();
 					}
 					if(response.equals("no")) {
-						System.out.println("Thanks for playing – have a great day!!");
+						System.out.println("Thanks for playing Â– have a great day!!");
 						end=true;
 					}
 					System.out.println("Saving Data File:");
@@ -650,7 +649,7 @@ public class Casino
 
 					}
 					if(response.equals("no")) {
-						System.out.println("Thanks for playing – have a great day!!");
+						System.out.println("Thanks for playing Â– have a great day!!");
 						System.out.println("Saving Data File:");
 						System.out.println(count+" players to be saved");
 						reader.readData();
@@ -876,7 +875,7 @@ public class Casino
 						playSlots();
 					}
 					if(response.equals("no")) {
-						System.out.println("Thanks for playing – have a great day!!");
+						System.out.println("Thanks for playing Â– have a great day!!");
 						end=true;
 					}
 					System.out.println("Saving Data File:");
